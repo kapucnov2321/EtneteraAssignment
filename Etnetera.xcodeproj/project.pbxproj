@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5C3FA74A48CCAFFB7473536 /* Pods_Etnetera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0DF1EF7CC15CFE84AC77B8 /* Pods_Etnetera.framework */; };
+		D627D2DE2CC4018F006E4110 /* EtneteraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D2DD2CC4018F006E4110 /* EtneteraApp.swift */; };
+		D627D2E02CC4018F006E4110 /* ActivityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D2DF2CC4018F006E4110 /* ActivityListView.swift */; };
+		D627D2E22CC40190006E4110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D627D2E12CC40190006E4110 /* Assets.xcassets */; };
+		D627D2E52CC40190006E4110 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D627D2E42CC40190006E4110 /* Preview Assets.xcassets */; };
+		D627D2ED2CC4055F006E4110 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D2EC2CC4055F006E4110 /* View+Extension.swift */; };
+		D627D2EF2CC4076D006E4110 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D2EE2CC4076D006E4110 /* AddActivityView.swift */; };
+		D627D2F22CC40A14006E4110 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D2F12CC40A14006E4110 /* InputView.swift */; };
+		D627D2F52CC41516006E4110 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D627D2F42CC41516006E4110 /* GoogleService-Info.plist */; };
+		D627D2F82CC41809006E4110 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D2F72CC41809006E4110 /* DatabaseService.swift */; };
+		D627D2FA2CC41EFE006E4110 /* Decodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D2F92CC41EFE006E4110 /* Decodable+Extension.swift */; };
+		D627D2FC2CC41F26006E4110 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D2FB2CC41F26006E4110 /* String+Extension.swift */; };
+		D627D2FF2CC4615B006E4110 /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D2FE2CC4615B006E4110 /* ActivityData.swift */; };
+		D627D3012CC46AD6006E4110 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D3002CC46AD6006E4110 /* Collection+Extension.swift */; };
+		D627D3032CC4FB4A006E4110 /* RealmActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D3022CC4FB4A006E4110 /* RealmActivityData.swift */; };
+		D627D3062CC50617006E4110 /* LoadingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D3052CC50617006E4110 /* LoadingModifier.swift */; };
+		D627D3082CC50910006E4110 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D3072CC50910006E4110 /* ListItemView.swift */; };
+		D627D30A2CC523B9006E4110 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D3092CC523B9006E4110 /* ErrorView.swift */; };
+		D627D30C2CC5265C006E4110 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627D30B2CC5265C006E4110 /* CustomButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46182688F5E2BC107EDDE2DB /* Pods-Etnetera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Etnetera.debug.xcconfig"; path = "Target Support Files/Pods-Etnetera/Pods-Etnetera.debug.xcconfig"; sourceTree = "<group>"; };
+		61B34851B00F9EFBAA5992A9 /* Pods-Etnetera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Etnetera.release.xcconfig"; path = "Target Support Files/Pods-Etnetera/Pods-Etnetera.release.xcconfig"; sourceTree = "<group>"; };
+		6A0DF1EF7CC15CFE84AC77B8 /* Pods_Etnetera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Etnetera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D627D2DA2CC4018F006E4110 /* Etnetera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Etnetera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D627D2DD2CC4018F006E4110 /* EtneteraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtneteraApp.swift; sourceTree = "<group>"; };
+		D627D2DF2CC4018F006E4110 /* ActivityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListView.swift; sourceTree = "<group>"; };
+		D627D2E12CC40190006E4110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D627D2E42CC40190006E4110 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D627D2EC2CC4055F006E4110 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		D627D2EE2CC4076D006E4110 /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
+		D627D2F12CC40A14006E4110 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		D627D2F42CC41516006E4110 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D627D2F72CC41809006E4110 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		D627D2F92CC41EFE006E4110 /* Decodable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+Extension.swift"; sourceTree = "<group>"; };
+		D627D2FB2CC41F26006E4110 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		D627D2FE2CC4615B006E4110 /* ActivityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityData.swift; sourceTree = "<group>"; };
+		D627D3002CC46AD6006E4110 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		D627D3022CC4FB4A006E4110 /* RealmActivityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmActivityData.swift; sourceTree = "<group>"; };
+		D627D3052CC50617006E4110 /* LoadingModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingModifier.swift; sourceTree = "<group>"; };
+		D627D3072CC50910006E4110 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		D627D3092CC523B9006E4110 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		D627D30B2CC5265C006E4110 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D627D2D72CC4018F006E4110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C3FA74A48CCAFFB7473536 /* Pods_Etnetera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9101B41EB894E88057F1EE79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46182688F5E2BC107EDDE2DB /* Pods-Etnetera.debug.xcconfig */,
+				61B34851B00F9EFBAA5992A9 /* Pods-Etnetera.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C22C89D0B9D613238E5DA171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A0DF1EF7CC15CFE84AC77B8 /* Pods_Etnetera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D627D2D12CC4018F006E4110 = {
+			isa = PBXGroup;
+			children = (
+				D627D2DC2CC4018F006E4110 /* Etnetera */,
+				D627D2DB2CC4018F006E4110 /* Products */,
+				9101B41EB894E88057F1EE79 /* Pods */,
+				C22C89D0B9D613238E5DA171 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D627D2DB2CC4018F006E4110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D627D2DA2CC4018F006E4110 /* Etnetera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D627D2DC2CC4018F006E4110 /* Etnetera */ = {
+			isa = PBXGroup;
+			children = (
+				D627D2F42CC41516006E4110 /* GoogleService-Info.plist */,
+				D627D2F32CC40F97006E4110 /* Common */,
+				D627D2F62CC41778006E4110 /* Services */,
+				D627D2DD2CC4018F006E4110 /* EtneteraApp.swift */,
+				D627D2EE2CC4076D006E4110 /* AddActivityView.swift */,
+				D627D2DF2CC4018F006E4110 /* ActivityListView.swift */,
+				D627D2E12CC40190006E4110 /* Assets.xcassets */,
+				D627D2E32CC40190006E4110 /* Preview Content */,
+			);
+			path = Etnetera;
+			sourceTree = "<group>";
+		};
+		D627D2E32CC40190006E4110 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D627D2E42CC40190006E4110 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D627D2EB2CC40551006E4110 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D627D2EC2CC4055F006E4110 /* View+Extension.swift */,
+				D627D2F92CC41EFE006E4110 /* Decodable+Extension.swift */,
+				D627D2FB2CC41F26006E4110 /* String+Extension.swift */,
+				D627D3002CC46AD6006E4110 /* Collection+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D627D2F02CC40A0D006E4110 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D627D2F12CC40A14006E4110 /* InputView.swift */,
+				D627D3072CC50910006E4110 /* ListItemView.swift */,
+				D627D3092CC523B9006E4110 /* ErrorView.swift */,
+				D627D30B2CC5265C006E4110 /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D627D2F32CC40F97006E4110 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D627D3042CC50609006E4110 /* Modifiers */,
+				D627D2F02CC40A0D006E4110 /* Views */,
+				D627D2EB2CC40551006E4110 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D627D2F62CC41778006E4110 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D627D2FD2CC46153006E4110 /* Model */,
+				D627D2F72CC41809006E4110 /* DatabaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D627D2FD2CC46153006E4110 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D627D2FE2CC4615B006E4110 /* ActivityData.swift */,
+				D627D3022CC4FB4A006E4110 /* RealmActivityData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D627D3042CC50609006E4110 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				D627D3052CC50617006E4110 /* LoadingModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D627D2D92CC4018F006E4110 /* Etnetera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D627D2E82CC40190006E4110 /* Build configuration list for PBXNativeTarget "Etnetera" */;
+			buildPhases = (
+				5348DD934468F584E4019DF1 /* [CP] Check Pods Manifest.lock */,
+				D627D2D62CC4018F006E4110 /* Sources */,
+				D627D2D72CC4018F006E4110 /* Frameworks */,
+				D627D2D82CC4018F006E4110 /* Resources */,
+				6DEB40A3C963DEB2E03D7F20 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Etnetera;
+			productName = Etnetera;
+			productReference = D627D2DA2CC4018F006E4110 /* Etnetera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D627D2D22CC4018F006E4110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D627D2D92CC4018F006E4110 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = D627D2D52CC4018F006E4110 /* Build configuration list for PBXProject "Etnetera" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D627D2D12CC4018F006E4110;
+			productRefGroup = D627D2DB2CC4018F006E4110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D627D2D92CC4018F006E4110 /* Etnetera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D627D2D82CC4018F006E4110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D627D2E52CC40190006E4110 /* Preview Assets.xcassets in Resources */,
+				D627D2E22CC40190006E4110 /* Assets.xcassets in Resources */,
+				D627D2F52CC41516006E4110 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5348DD934468F584E4019DF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Etnetera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DEB40A3C963DEB2E03D7F20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Etnetera/Pods-Etnetera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Etnetera/Pods-Etnetera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Etnetera/Pods-Etnetera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D627D2D62CC4018F006E4110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D627D2FF2CC4615B006E4110 /* ActivityData.swift in Sources */,
+				D627D3082CC50910006E4110 /* ListItemView.swift in Sources */,
+				D627D2FC2CC41F26006E4110 /* String+Extension.swift in Sources */,
+				D627D2F82CC41809006E4110 /* DatabaseService.swift in Sources */,
+				D627D3032CC4FB4A006E4110 /* RealmActivityData.swift in Sources */,
+				D627D2FA2CC41EFE006E4110 /* Decodable+Extension.swift in Sources */,
+				D627D3062CC50617006E4110 /* LoadingModifier.swift in Sources */,
+				D627D2E02CC4018F006E4110 /* ActivityListView.swift in Sources */,
+				D627D2EF2CC4076D006E4110 /* AddActivityView.swift in Sources */,
+				D627D2F22CC40A14006E4110 /* InputView.swift in Sources */,
+				D627D2ED2CC4055F006E4110 /* View+Extension.swift in Sources */,
+				D627D30A2CC523B9006E4110 /* ErrorView.swift in Sources */,
+				D627D2DE2CC4018F006E4110 /* EtneteraApp.swift in Sources */,
+				D627D3012CC46AD6006E4110 /* Collection+Extension.swift in Sources */,
+				D627D30C2CC5265C006E4110 /* CustomButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D627D2E62CC40190006E4110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D627D2E72CC40190006E4110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D627D2E92CC40190006E4110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46182688F5E2BC107EDDE2DB /* Pods-Etnetera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Etnetera/Preview Content\"";
+				DEVELOPMENT_TEAM = G98QS5K22V;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janmatoniak.Etnetera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D627D2EA2CC40190006E4110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B34851B00F9EFBAA5992A9 /* Pods-Etnetera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Etnetera/Preview Content\"";
+				DEVELOPMENT_TEAM = G98QS5K22V;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janmatoniak.Etnetera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D627D2D52CC4018F006E4110 /* Build configuration list for PBXProject "Etnetera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D627D2E62CC40190006E4110 /* Debug */,
+				D627D2E72CC40190006E4110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D627D2E82CC40190006E4110 /* Build configuration list for PBXNativeTarget "Etnetera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D627D2E92CC40190006E4110 /* Debug */,
+				D627D2EA2CC40190006E4110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D627D2D22CC4018F006E4110 /* Project object */;
+}
